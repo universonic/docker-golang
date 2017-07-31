@@ -1,5 +1,5 @@
 # golang 1.8.3
-# Version: 1.0.0.a
+# Version: 1.0.0
 # Author: Alfred Chou
 
 FROM rhel:latest
