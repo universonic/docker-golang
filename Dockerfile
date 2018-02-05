@@ -1,4 +1,4 @@
-# golang 1.9
+# universonic/golang-el7
 # Version: 1.1.0
 # Author:  Alfred Chou <unioverlord@gmail.com>
 
