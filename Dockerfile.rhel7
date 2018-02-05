@@ -6,9 +6,9 @@ FROM registry.access.redhat.com/rhel:latest AS golang_rhel
 
 # Change the following parameters as you wish. Package checksum (SHA256) can be found on:
 #   <http://golang.org/dl/>
-ARG GOLANG_VERSION=1.9
+ARG GOLANG_VERSION=1.9.3
 ARG GOLANG_ARCH=linux-amd64
-ARG GOLANG_PKG_HASH=d70eadefce8e160638a9a6db97f7192d8463069ab33138893ad3bf31b0650a79
+ARG GOLANG_PKG_HASH=a4da5f4c07dfda8194c4621611aeb7ceaab98af0b38bfb29e1be2ebb04c3556c
 ARG VENDOR_NAME="Red Hat, Inc."
 ARG RHSM_USERNAME=<REDHAT_ACCOUNT>
 ARG RHSM_PASSWORD=<REDHAT_PASSWORD>
