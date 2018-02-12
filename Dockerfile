@@ -6,9 +6,9 @@ FROM centos:latest AS golang_centos
 
 # Change the following parameters as you wish. Package checksum (SHA256) can be found on:
 #   <http://golang.org/dl/>
-ARG GOLANG_VERSION=1.9.3
+ARG GOLANG_VERSION=1.9.4
 ARG GOLANG_ARCH=linux-amd64
-ARG GOLANG_PKG_HASH=a4da5f4c07dfda8194c4621611aeb7ceaab98af0b38bfb29e1be2ebb04c3556c
+ARG GOLANG_PKG_HASH=15b0937615809f87321a457bb1265f946f9f6e736c563d6c5e0bd2c22e44f779
 ARG VENDOR_NAME="Red Hat, Inc."
 
 USER root
